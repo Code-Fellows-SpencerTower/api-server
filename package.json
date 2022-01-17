@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
     "cors": "^2.8.5",
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "jest-circus": "^27.4.6",
     "pg": "^8.7.1",
     "sequelize": "^6.13.0",
     "sqlite3": "^5.0.2",
